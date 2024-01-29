@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "simple-git-hooks": {
-    "pre-commit": "lint-staged && git add .",
+    "pre-commit": "npx lint-staged && git add .",
     "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+    "commit-msg": "",
     "pre-push": ""
   },
   "author": "Glauber Funez <https://github.com/GlauberF>",

@@ -7,6 +7,7 @@ Passos Instalação
 - npm i lint-staged --save-dev
 - Configurando simple-git-hooks
 ```json
+//package-json
 "simple-git-hooks": {
     "pre-commit": "lint-staged && git add .",
     "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
@@ -14,4 +15,13 @@ Passos Instalação
     "pre-push": ""
 },
 ```
-- npx simple-git-hooks
+- Na raiz do projeto
+```bash
+# [Optional] These 2 steps can be skipped for non-husky users
+git config core.hooksPath .git/hooks/
+rm -rf .git/hooks
+
+# Update ./git/hooks
+npx simple-git-hooks
+```
+Sempre que atualizar o simple-git-hooks, executar o comando `npx simple-git-hooks`.
