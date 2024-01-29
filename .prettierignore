@@ -1,0 +1,16 @@
+tmp
+/test
+/build
+/dist
+node_modules
+/.vscode
+/.idea
+/.github
+/coverage
+src/assets/
+/src/assets/
+package-lock.json
+@schematics/
+*.md
+*.yml
+*.sh
