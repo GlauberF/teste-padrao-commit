@@ -1,6 +1,7 @@
 # teste-padrao-commit
 
-Passos Instalação
+Passos Instalação/Configuração
+
 - npm i commitizen https://github.com/GlauberF/cz-conventional-changelog-for-jira-a --save-dev
 - npm i simple-git-hooks --save-dev
 - npm i prettier --save-dev
