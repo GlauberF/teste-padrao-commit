@@ -15,7 +15,7 @@
   "author": "Glauber Funez <https://github.com/GlauberF>",
   "license": "ISC",
   "devDependencies": {
-    "@digitalroute/cz-conventional-changelog-for-jira": "^8.0.1",
+    "@glauberfunez/cz-conventional-changelog-for-jira": "github:GlauberF/cz-conventional-changelog-for-jira-a",
     "commitizen": "4.0.4",
     "lint-staged": "9.5.0",
     "prettier": "^3.2.4",
