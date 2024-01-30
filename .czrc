@@ -1,5 +1,5 @@
 {
     "path": "./node_modules/@glauberfunez/cz-conventional-changelog-for-jira",
     "skipBreaking":true,
-    "skipType": false
+    "skipType": true
 }
