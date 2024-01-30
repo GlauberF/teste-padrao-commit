@@ -31,3 +31,4 @@ rm -rf .git/hooks
 npx simple-git-hooks
 ```
 Sempre que atualizar o simple-git-hooks no package, executar o comando `npx simple-git-hooks`.
+
