@@ -5,7 +5,7 @@ Passos Instalação
 - npm i simple-git-hooks --save-dev
 - npm i prettier --save-dev
 - npm i lint-staged --save-dev
-- Configurando simple-git-hooks
+- Configurando simple-git-hooks 
 ```json
 //package-json
 "simple-git-hooks": {
